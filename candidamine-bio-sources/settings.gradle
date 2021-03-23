@@ -1,0 +1,23 @@
+rootProject.name = 'bio-sources'
+include ':bio-source-candida-gff'
+project(':bio-source-candida-gff').projectDir = new File(settingsDir, './candida-gff')
+include ':bio-source-cgd-identifiers'
+project(':bio-source-cgd-identifiers').projectDir = new File(settingsDir, './cgd-identifiers')
+include ':bio-source-cgd-orthologs'
+project(':bio-source-cgd-orthologs').projectDir = new File(settingsDir, './cgd-orthologs')
+include ':bio-source-cgd-iprScan'
+project(':bio-source-cgd-iprScan').projectDir = new File(settingsDir, './cgd-iprScan')
+include ':bio-source-cgd-phenotype'
+project(':bio-source-cgd-phenotype').projectDir = new File(settingsDir, './cgd-phenotype')
+include ':bio-source-cgd-vcf'
+project(':bio-source-cgd-vcf').projectDir = new File(settingsDir, './cgd-vcf')
+include ':bio-source-apo'
+project(':bio-source-apo').projectDir = new File(settingsDir, './apo')
+include ':bio-source-candida-rna'
+project(':bio-source-candida-rna').projectDir = new File(settingsDir, './candida-rna')
+include ':bio-source-cstrains'
+project(':bio-source-cstrains').projectDir = new File(settingsDir, './cstrains')
+include ':bio-source-sra-xml'
+project(':bio-source-sra-xml').projectDir = new File(settingsDir, './sra-xml')
+include ':bio-source-string-db'
+project(':bio-source-string-db').projectDir = new File(settingsDir, './string-db')
