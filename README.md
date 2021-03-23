@@ -1,2 +1,2 @@
-CandidaMine Poweredby InterMine
+CandidaMine
 ===============================
